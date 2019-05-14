@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>  
+<?xml version="1.0" encoding="utf-8"?>  
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id    = "com.phonegap.app7"
+id = "com.phonegap.app7"
 version  = "1.0.0">
 
-<name>app-7-Mostrar-Aplicaciones </name>
+<name>app7 Mostrar Aplicaciones </name>
 
 <description>
-Aplicacion que Muestra las Otras Aplicaciones
+Aplicacion que nos Mostrara las Aplicaciones
 </description>
 
 <author href="https://build.phonegap.com" email="asaf.gserrano@hotmail.com">
@@ -16,21 +16,23 @@ Garcia Serrano Carlos Asaf
 </author>
 
 <!--Personaliza la aplicacion y plataforma-->
-<preference name="orientation"  value="default" /> 
+<preference name="orientation"  value="default"/> 
 <!--<preference name="orientation"  value="portrait" />
-<!-- <prefernce name="orientation"  value="landscape"/>-->
+<preference name="orientation"  value="landscape"/>-->
 <preference name="target-device"  value="universal" />
 <preference name="fullscreen"  value="true" />
 <preference name="android-installLocation" value="auto" />
 <preference name="permissions" value="INTERNET" />
 
-<!--Plugins-->}
+
+<!--Plugins-->
 <!--Core plugins -->
 <plugin name="cordova-plugin-device" spec="~1.1.4" />
 <plugin name="cordova-plugin-vibration" spec="~2.1.3" />
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
 
 <!--Para accesar a paginas en internet -->
+
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
 <allow-intent href="http://*/*"/>
@@ -39,8 +41,10 @@ Garcia Serrano Carlos Asaf
 
 <!--Colocar icono app-->
 
-<icon src="res/android/images (1).jpg" />
+<icon src="res/android/images (1)..jpg" />
 
 </widget>
+
+
 
 
